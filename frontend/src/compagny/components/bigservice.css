@@ -1,0 +1,13 @@
+.Services{
+    display: flex;
+}
+.srvice{
+    border: 1px solid #3A314E;
+    box-shadow: 7px 7px grey;
+    text-align: justify;
+}
+
+.btn-explore{
+    background-color: #ff631a;
+    color: #ffffff;
+}

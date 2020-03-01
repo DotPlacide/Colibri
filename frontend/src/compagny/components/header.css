@@ -1,0 +1,41 @@
+.btn-started{
+    background-color: #ff631a;
+    color: #fff;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-started:hover{
+    background-color: #ff631a;
+    color: #fff;
+}
+.btn-outline-schedule{
+    border: 1px solid #ff631a;
+    background-color: white;
+    color: #ff631a;
+    margin-left: 15px;
+}
+
+.btn-outline-schedule:hover{
+    border: 1px solid #ff631a;
+    background-color: white;
+    color: #ff631a;
+    margin-left: 15px;
+}
+
+
+.Himg{
+    background-color: #3A314E;
+    height: 373px;
+    width: 634px;
+}
+.Header{
+    display: flex;
+}

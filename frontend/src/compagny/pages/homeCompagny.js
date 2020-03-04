@@ -13,9 +13,8 @@ const HomeCompagny = ()=>{
                 <div className="DownHome">
                     <Quotation/>
                 </div>
-
             </div>
         )
-}
+};
 
 export default HomeCompagny

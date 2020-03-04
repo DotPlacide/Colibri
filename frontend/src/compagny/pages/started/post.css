@@ -1,0 +1,33 @@
+.bg-post{
+    background-color: #EEF2F6;
+    width: 100%;
+    height: 100%;
+}
+
+.card-steps{
+    border: none;
+    height: 50px;
+    border-radius: unset;
+}
+
+.navProgress ul li{
+    display: inline-block;
+}
+.navProgress ul li a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: darkgray;
+}
+
+.listSpace{
+    margin: auto 50px;
+}
+
+.card-box{
+    height: 100px;
+    margin-top: -25px;
+    background-color: #3A314E;
+}
+.carContent{
+
+}

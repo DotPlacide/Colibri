@@ -1,0 +1,102 @@
+textarea.form-control, .select2-search input {
+    display: block;
+    width: 100%;
+    min-height: 40px;
+    height: 40px;
+    padding: 10px 19px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    color: #222;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+}
+
+.bodyCard{
+    margin-top: 25px;
+}
+
+.listDescription{
+
+ }
+
+#FileUpload {
+    justify-content: center;
+}
+.wrapper {
+    margin: 30px;
+    padding: 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border-radius: 10px;
+    background-color: white;
+    width: 415px;
+}
+
+/* === Upload Box === */
+.upload {
+    margin: 10px;
+    height: 85px;
+    border: 8px dashed #e6f5e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.upload p {
+    margin-top: 12px;
+    line-height: 0;
+    font-size: 22px;
+    color: #3A314E;
+    letter-spacing: 1.5px;
+}
+.upload__button {
+    background-color: #e6f5e9;
+    border-radius: 10px;
+    padding: 0px 8px 0px 10px;
+}
+.upload__button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* === Uploaded Files === */
+.uploaded {
+    width: 375px;
+    margin: 10px;
+    background-color: #e6f5e9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.file {
+    display: flex;
+    flex-direction: column;
+}
+.file__name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 300px;
+    line-height: 0;
+    color: #3A314E;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.fa-times:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.fa-file-pdf {
+    padding: 15px;
+    font-size: 40px;
+    color: #ff631a;
+}

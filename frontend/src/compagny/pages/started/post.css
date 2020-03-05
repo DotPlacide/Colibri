@@ -31,3 +31,54 @@
 .carContent{
 
 }
+
+.eo-button-box {
+    position: relative;
+    vertical-align: top;
+    text-align: center;
+    height: calc(100% - 7px);
+    min-height: 66px;
+    border-radius: 2px;
+    border: 0 solid transparent;
+    padding: 15px;
+    margin-bottom: 7px;
+    -webkit-box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+    box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+    cursor: pointer;
+
+}
+
+.eo-button-box:hover{
+    -webkit-box-shadow: 0 3px 9px rgba(57,73,76,0.35);
+    box-shadow: 0 3px 9px rgba(57,73,76,0.35);
+}
+
+.eo-button-box.active {
+    color: #ff631a;
+}
+
+.eo-button-box.active:after {
+    content: " ";
+    border-bottom: 5px solid #ff631a;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.radio{
+    margin-top: 10px;
+}
+.radio span{
+    margin-left: 10px;
+}
+
+.Btz div a {
+    margin-top: 35px;
+    margin-right: 25px;
+}
+.btn-white{
+    background-color: white;
+    color: #ff631a;
+}
